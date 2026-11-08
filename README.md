@@ -62,3 +62,11 @@ src/services/      storage, location, units, appointments
 src/screens/       as 3 telas
 src/components/    Button e ThemeToggle
 ```
+
+| ODS conectados | 3, 10 e 11 (veja "Contribuição para os ODS" abaixo) |
+
+## Contribuição para os ODS
+
+- **ODS 3 (Saúde e bem-estar):** o app ajuda o cidadão a achar a unidade com menos espera e a agendar o atendimento, facilitando o acesso à atenção básica de saúde.
+- **ODS 10 (Redução das desigualdades):** idosos, pessoas com deficiência e gestantes veem as informações de acessibilidade e de prioridade, o que reduz a desvantagem de quem tem mobilidade reduzida.
+- **ODS 11 (Cidades e comunidades sustentáveis):** o app torna os serviços públicos de saúde da cidade mais acessíveis e fáceis de encontrar, melhorando a vida urbana.
