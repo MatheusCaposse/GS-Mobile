@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Fila Clara",
+    "slug": "fila-clara",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermissionText": "O Fila Clara usa sua localização para mostrar as unidades de saúde mais próximas."
+        }
+      ],
+      "expo-status-bar"
+    ]
+  }
+}
