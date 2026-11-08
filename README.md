@@ -7,18 +7,24 @@ App mobile (React Native + Expo + TypeScript) para o cidadão acompanhar o atend
 | Campo | Resposta |
 |---|---|
 | Nome da CitizenTech | Fila Clara |
-| Cidade e bairro | São Paulo, região da Paulista (preencher o bairro da equipe) |
+| Cidade e bairro | São Paulo, Paulista |
 | Cidadão beneficiado | Idosos, pessoas com deficiência e gestantes que dependem do atendimento em UBS |
 | Problema, em uma frase | Falta informação sobre espera e acessibilidade das UBS, e quem tem mobilidade reduzida perde tempo e esforço indo à unidade errada. |
 | Como funciona | O cidadão se identifica, vê as unidades próximas com tempo de espera, consulta acessibilidade e agenda um atendimento. |
 | O que cada parte faz | Identificação (nome e prioridade), Lista de unidades (busca, espera, distância), Detalhe (acessibilidade e agendamento). |
-| Link do repositório | _(colar o link do GitHub)_ |
+| Link do repositório | https://github.com/MatheusCaposse/GS-Mobile |
 | Indicador de impacto | Tempo médio de espera evitado por atendimento agendado e nº de agendamentos feitos por pessoas com prioridade. |
 | ODS conectados | 3 (Saúde e bem-estar), 10 (Redução das desigualdades), 11 (Cidades e comunidades sustentáveis) |
 
 ## Integrantes
 
-Os nomes e RMs estão no array `authors` do `package.json`.
+| RM | Nome |
+|---|---|
+| RM559483 | Matheus Ikeda |
+| RM560723 | Davis Júnior |
+| RM560340 | Matheus Caposse |
+
+Os nomes e RMs também estão no array `authors` do `package.json`.
 
 ## Como rodar
 
@@ -27,7 +33,7 @@ npm install
 npx expo start
 ```
 
-Abra no celular com o app **Expo Go** (escaneie o QR code). Para checar os tipos: `npm run typecheck`.
+O projeto usa **Expo SDK 58**, então é preciso ter o app **Expo Go** atualizado no celular. Escaneie o QR code para abrir e, se pedir, faça login no Expo Go e no Expo CLI com a mesma conta. Para checar os tipos: `npm run typecheck`.
 
 ## Telas
 
